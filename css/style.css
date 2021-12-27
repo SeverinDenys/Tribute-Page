@@ -1,0 +1,155 @@
+/* Обнуление */
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */ /* почему то если border 0, то не работает hr */
+}
+
+.main-container {
+  width: 1500px;
+}
+
+/* header settings */
+
+.header {
+  text-align: center;
+}
+
+.logo-image {
+  width: 1100px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.logo-title {
+  margin-top: 30px;
+  font-size: 33px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+/* section settings  */
+
+.timeline {
+  display: block;
+  width: 1130px;
+}
+
+.timeline-title {
+  color: rgb(184, 181, 181);
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 370px;
+}
+
+.life_events {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.horizontal_line {
+  /* margin-bottom: 10px;
+    margin-top: 10px; */
+  width: 1008px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date1 {
+  display: block;
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+.life_period1 {
+  display: block;
+  background: rgb(238, 235, 235);
+  padding: 10px 30px 10px 10px;
+  width: 800px;
+}
+
+/* aside section */
+
+.aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-right: 65px;
+  float: right;
+  margin-top: -800px;
+}
+
+.aside-title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.aside-image {
+  width: 250px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.description-title {
+  display: block;
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.description-text {
+  display: block;
+  text-align: center;
+  padding: 10px 30px 10px 10px;
+  width: 1000px;
+}
+
+.horizontal_line_aside {
+  /* margin-bottom: 10px;
+    margin-top: 10px; */
+  width: 230px;
+  margin-left: 70px;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  width: 1355px;
+  background: rgb(238, 238, 238);
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-left: 78px;
+}
+
+.footer-text {
+  margin: 10px;
+}
+
+.steve-link {
+  text-decoration: none;
+  color: rgb(48, 183, 245);
+}
+
+.madeBy {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.author {
+  color: rgb(199, 119, 20);
+}
